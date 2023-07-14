@@ -224,6 +224,7 @@ h6,
         center center,
         center bottom;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 @media (max-width: 991.98px) {
@@ -330,6 +331,7 @@ h6,
         right 0px bottom 0px,
         center center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
@@ -458,6 +460,7 @@ h6,
         right 0px bottom 0px,
         center center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 
@@ -517,6 +520,7 @@ h6,
         center top,
         center center;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .footer .btn.btn-social {
