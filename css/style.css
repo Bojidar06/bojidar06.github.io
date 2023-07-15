@@ -231,6 +231,12 @@ h6,
     }
 }
 
+@media (max-width: 1205px) {
+    .hero-header{
+        padding-top: 11rem !important;
+    }
+}
+
 
 /*** Section Title ***/
 .section-title {
