@@ -91,16 +91,16 @@ h6,
     font-family: "Font Awesome 5 Free";
     font-size: 10px;
     font-weight: bold;
-    vertical-align: middle;
+    vertical-align:middle;
     margin-left: 8px;
 }
 
 .navbar-light .navbar-nav .nav-link {
     position: relative;
-    margin-right: 25px;
-    padding: 35px 0;
+    margin-right: 100px;
+    padding: 50px 0;
     font-family: 'Jost', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     color: var(--light) !important;
     outline: none;
@@ -108,7 +108,6 @@ h6,
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
-    padding: 20px 0;
     color: var(--dark) !important;
 }
 
@@ -122,18 +121,16 @@ h6,
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 70px;
+    max-height: 80px;
     transition: .5s;
 }
 
-.sticky-top.navbar-light .navbar-brand img {
-    max-height: 55px;
-}
 
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
-        position: relative;
+        position: fixed;
         background: #FFFFFF;
+        width: 100%;
     }
 
     .navbar-light .navbar-collapse {
@@ -153,7 +150,7 @@ h6,
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 55px;
+        max-height: 70px;
     }
 }
 
@@ -208,7 +205,8 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 4rem;
-    padding: 16rem 0;
+    padding-bottom: 17rem;
+    padding-top: 7rem;
     background:
         url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
