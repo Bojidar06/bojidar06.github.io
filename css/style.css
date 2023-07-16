@@ -201,6 +201,12 @@ h6,
     }
 }
 
+@media (max-width: 991.98px) {
+    .navbar {
+      overflow-x: hidden;
+    }
+  }
+
 
 /*** Hero Header ***/
 .hero-header {
