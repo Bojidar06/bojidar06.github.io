@@ -130,7 +130,7 @@ h6,
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
-        width: 100%;
+        width: 100vw;
     }
 
     .navbar-light .navbar-collapse {
@@ -232,6 +232,10 @@ h6,
 
     #hiro{
         padding-top: 0px !important;
+    }
+
+    .otdalechi{
+        padding-top: 60px;
     }
 }
 
