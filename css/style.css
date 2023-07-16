@@ -89,7 +89,7 @@ h6,
     border: none;
     content: "\f067";
     font-family: "Font Awesome 5 Free";
-    font-size: 10px;
+    font-size: 1.1rem;
     font-weight: bold;
     vertical-align:middle;
     margin-left: 8px;
@@ -100,7 +100,7 @@ h6,
     margin-right: 100px;
     padding: 50px 0;
     font-family: 'Jost', sans-serif;
-    font-size: 22px;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--light) !important;
     outline: none;
@@ -121,7 +121,7 @@ h6,
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 80px;
+    max-height: 4.3rem;
     transition: .5s;
 }
 
@@ -228,6 +228,10 @@ h6,
 @media (max-width: 991.98px) {
     .hero-header {
         padding: 6rem 0 9rem 0;
+    }
+
+    #hiro{
+        padding-top: 0px !important;
     }
 }
 
