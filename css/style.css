@@ -126,12 +126,13 @@ h6,
 }
 
 @media (max-width: 750px){
-    .mar{
-        margin-bottom: 100px !important;
-    }
 
     #kompot_tel{
         width: 300px !important;
+    }
+
+    .gledai{
+        margin-bottom: 15px;
     }
 }
 
