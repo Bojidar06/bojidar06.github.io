@@ -98,7 +98,7 @@ h6,
 .navbar-light .navbar-nav .nav-link {
     position: relative;
     margin-right: 100px;
-    padding: 50px 0;
+    padding: 0px 0;
     font-family: 'Jost', sans-serif;
     font-size: 1.1rem;
     font-weight: 500;
@@ -125,6 +125,22 @@ h6,
     transition: .5s;
 }
 
+@media (max-width: 750px){
+    .mar{
+        margin-bottom: 100px !important;
+    }
+
+    #kompot_tel{
+        width: 300px !important;
+    }
+}
+
+@media(max-width: 1200px){
+    #tel2{
+        max-width: 100px !important;
+        overflow: auto;
+    }
+}
 
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
@@ -517,13 +533,13 @@ h6,
 
 /*** Team ***/
 .team-item .btn {
-    color: var(--primary);
+    color: black;
     background: #FFFFFF;
 }
 
 .team-item .btn:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background:#fb3e04;
 }
 
 
@@ -532,7 +548,7 @@ h6,
     margin-top: 6rem;
     padding-top: 9rem;
     background:
-        url(../img/bg-top.png),
+
         url(../img/map.png);
     background-position:
         center top,
