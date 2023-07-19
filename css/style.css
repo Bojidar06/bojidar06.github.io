@@ -625,3 +625,17 @@ h6,
 .footer .footer-menu a:hover {
     color: var(--secondary);
 }
+
+
+.ms-pricing-table .check{
+    width: 21px !important;
+    height: 19px !important;
+    display: inline-block;
+    background: 0 0 url("../img/tick.png") no-repeat !important;
+    background-size: 100% auto !important;
+}
+
+
+.pricing-info__tag{
+    color:#fb3e04 !important;
+}
