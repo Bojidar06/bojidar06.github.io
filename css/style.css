@@ -260,6 +260,8 @@ h6,
     .otdalechi{
         padding-top: 60px;
     }
+
+
 }
 
 @media (max-width: 1205px) {
@@ -643,3 +645,9 @@ h6,
 .hov:hover{
     color:#fb3e04 !important;
 }
+
+
+.float-child {
+width: 50%;
+float: left;
+}  
