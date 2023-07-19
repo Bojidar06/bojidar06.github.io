@@ -639,3 +639,7 @@ h6,
 .pricing-info__tag{
     color:#fb3e04 !important;
 }
+
+.hov:hover{
+    color:#fb3e04 !important;
+}
