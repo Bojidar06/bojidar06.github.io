@@ -1,4 +1,4 @@
-const apiUrl = 'http:/52.47.199.61:3000';
+const apiUrl = 'https://kompotserver.azurewebsites.net/';
 
 async function fetchData(endpoint) {
     try {
