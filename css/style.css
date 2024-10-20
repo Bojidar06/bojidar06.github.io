@@ -5,6 +5,20 @@
     --dark: #04000B;
 }
 
+/* Scrollbar  */
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color:#F6F4F9;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#fb3e04;
+    border-radius: 10px;
+}
+
 
 #spinner {
     opacity: 0;
@@ -140,10 +154,17 @@ h6,
     #tel2{
         max-width: 100px !important;
         overflow: auto;
+        
     }
 }
 
-@media (max-width: 991.98px) {
+@media(max-width: 600px){
+    h4{
+        font-size: 19px !important;
+    }
+}
+
+@media (max-width: 900px) {
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
@@ -168,6 +189,12 @@ h6,
 
     .navbar-light .navbar-brand img {
         max-height: 70px;
+    }
+}
+
+@media (max-width: 800px){
+    .snimki{
+        width: 60vw !important;
     }
 }
 
@@ -354,7 +381,7 @@ h6,
 
 /*** Fact ***/
 .fact {
-    margin: 6rem 0;
+    margin: 3rem 0;
     background:
         url(../img/blob-top-left.png),
         url(../img/blob-top-right.png),
@@ -548,8 +575,7 @@ h6,
 
 /*** Footer ***/
 .footer {
-    margin-top: 6rem;
-    padding-top: 9rem;
+    padding-top: 3rem;
     background:
 
         url(../img/map.png);
@@ -574,7 +600,7 @@ h6,
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    background-color:var(--secondary);
 }
 
 .footer .btn.btn-link {
