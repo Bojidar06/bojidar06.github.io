@@ -148,6 +148,14 @@ h6,
     .gledai{
         margin-bottom: 15px;
     }
+
+    .downloadSnimki1{
+        width: 75% !important;
+    }
+
+    .downloadSnimki2{
+        width: 85% !important;
+    }
 }
 
 @media(max-width: 1200px){
