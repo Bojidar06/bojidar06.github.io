@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="overflow-x:hidden !important;" lang="en">
 
 <head style="overflow-x: hidden !important;">
   <meta charset="utf-8">
@@ -70,14 +70,15 @@
   <!--Navbar Start-->
   <nav class="navbar sticky-top navbar-expand-xl navbar-light px-4 px-lg-5 py-lg-0">
     <a href="#Beginning" class="navbar-brand p-0">
-      <img src="img/logo.png" alt="Logo">
+      <img id="logoto" src="img/logo.png" alt="Logo">
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    <button id="togler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse">
       <span class="fa fa-bars"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse" style="align-items: center; justify-content: center;">
       <div class="navbar-nav py-0">
-        <a href="#Beginning" class="nav-item nav-link">Начало</a>
+        <a id="nav-link" href="#Beginning" class="nav-item nav-link">Начало</a>
         <a href="#App" class="nav-item nav-link">Какво Предлагаме</a>
         <a href="#HowToUse" class="nav-item nav-link">Как работи</a>
         <a href="#Pricing" class="nav-item nav-link">Цени</a>
@@ -119,7 +120,7 @@
         </div>
         <div class="float-child">
           <a href="https://play.google.com/store/apps/details?id=com.kompot.loyalty" target="_blank">
-            <img style="display: block; margin: 0 auto; width: 150px;" src="img/googleplay.png">
+            <img style="display: block; margin: 0 auto; width: 157px;" src="img/googleplay.png">
           </a>
         </div>
       </div>
@@ -194,24 +195,24 @@
       <div class="row g-4">
         <div class="col-md-6 col-lg-3 text-center wow fadeIn">
           <i class="fa fa-users-cog fa-3x mb-3" style="color:#ff3c04;"></i>
-          <h1 id="user-count" class="text-black mb-2" data-toggle="counter-up">253</h1>
+          <h1 id="user-count" class="text-black mb-2" data-toggle="counter-up"></h1>
           <p class="text-black mb-0"><b>Изтегляния на приложението</b></p>
         </div>
 
-        <div class="col-md-6 col-lg-3 text-center wow fadeIn" ">
-                        <i class=" fa fa-certificate fa-3x mb-3" style="color:#fb3e04;"></i>
-          <h1 id="stamp-count" class="text-black mb-2" data-toggle="counter-up">92</h1>
+        <div class="col-md-6 col-lg-3 text-center wow fadeIn">
+          <i class=" fa fa-certificate fa-3x mb-3" style="color:#fb3e04;"></i>
+          <h1 id="stamp-count" class="text-black mb-2" data-toggle="counter-up"></h1>
           <p class="text-black mb-0"><b>Подпечатани карти</b></p>
         </div>
 
         <div class="col-md-6 col-lg-3 text-center wow fadeIn">
           <i class="fa fa-users fa-3x mb-3" style="color:#ff3c04;"></i>
-          <h1 id="reward-count" class="text-black mb-2" data-toggle="counter-up">13</h1>
+          <h1 id="reward-count" class="text-black mb-2" data-toggle="counter-up"></h1>
           <p class="text-black mb-0"><b>Раздадени награди</b></p>
         </div>
         <div class="col-md-6 col-lg-3 text-center wow fadeIn">
           <i class="fa fa-check fa-3x mb-3" style="color:#ff3c04;"></i>
-          <h1 id="place-count" class="text-black mb-2" data-toggle="counter-up">4</h1>
+          <h1 id="place-count" class="text-black mb-2" data-toggle="counter-up"></h1>
           <p class="text-black mb-0"><b>Oбекти, партниращи с нас</b></p>
         </div>
       </div>
@@ -236,7 +237,7 @@
                   id="block-yui_3_17_2_1_1593608466972_4231">
                   <div class="sqs-block-content">
                     <div class="sqs-html-content">
-                      <h2 style="text-align:center; margin-bottom: 70px;">Приложението</h2>
+                      <h2 style="text-align:center; margin-bottom: 35px; margin-top: 50px;">Приложението</h2>
                     </div>
                   </div>
                 </div>
@@ -269,7 +270,7 @@
                       id="block-yui_3_17_2_1_1593608466972_5320">
                       <div class="sqs-block-content">
                         <!--              <div class="phone-app-animated"> -->
-                        <img id="tel2" style="min-width: 300px; max-width: 400px; display: block; margin: 0 auto;"
+                        <img id="tel2" style="min-width: 265px; max-width: 400px; display: block; margin: 0 auto;"
                           src="img/tel_pechat2.png">
                       </div>
                       <div class="sqs-block spacer-block sqs-block-spacer" data-aspect-ratio="21.604938271604937"
@@ -483,7 +484,7 @@
 
   <!-- HowToUse START-->
   <div id="HowToUse"
-    style="background-color: white; margin-top:70px; padding-left: 0; padding-right: 0; padding-bottom: 0; "
+    style="background-color: white; padding-top:80px; padding-left: 0; padding-right: 0; padding-bottom: 0; margin-top: 40px;"
     class="Index-page-content ">
     <div class="col sqs-col-12 span-12">
       <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-d7f498a981c8c57ba60f">
@@ -644,7 +645,7 @@
         </div>
         <div class="float-child">
           <a href="https://play.google.com/store/apps/details?id=com.kompot.loyalty" target="_blank">
-            <img style="display: block; margin: 0 auto; width: 150px;" src="img/googleplay.png">
+            <img style="display: block; margin: 0 auto; width: 157px;" src="img/googleplay.png">
           </a>
         </div>
       </div>
@@ -765,7 +766,7 @@
 
 
   <!-- Contact Start -->
-  <div style="background-color: white; padding-top: 30px !important; margin-top: 100px;" id="Contact"
+  <div style="background-color: white; padding-top: 50px !important; margin-top: 100px;" id="Contact"
     class="container-fluid py-5">
     <div class="container py-5 px-lg-5">
       <div class="wow fadeInUp">

@@ -220,6 +220,7 @@ h6,
     .navbar-light .navbar-nav .nav-item .dropdown-menu {
         display: block;
         border: none;
+        margin: 0 auto;
         margin-top: 0;
         top: 150%;
         opacity: 0;
@@ -677,3 +678,4 @@ h6,
 width: 50%;
 float: left;
 }  
+
