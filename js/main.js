@@ -90,9 +90,13 @@ const Togler = document.getElementById('togler');
 const Colaps = document.getElementById('navbarCollapse');
 const Logo = document.getElementById('logoto');
 
+
+
 NavLinkEls.forEach(NavLinkEl => {
     NavLinkEl.addEventListener('click', () => {
+        if(!(Togler.classList.contains('collapsed'))){
         Togler.click();
+        }
     });
 });
 
