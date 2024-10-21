@@ -101,3 +101,9 @@ Logo.addEventListener('click', () => {
         Togler.click();
     }
 });
+
+window.addEventListener('scroll', () => {
+    if(!(Togler.classList.contains('collapsed'))){
+        Togler.click();
+    }
+});
