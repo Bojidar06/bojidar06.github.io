@@ -103,7 +103,7 @@ h6,
     border: none;
     content: "\f067";
     font-family: "Font Awesome 5 Free";
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
     vertical-align:middle;
     margin-left: 8px;
@@ -111,10 +111,10 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
     position: relative;
-    margin-right: 100px;
+    margin-right: 6vw;
     padding: 0px 0;
     font-family: 'Jost', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
     color: var(--light) !important;
     outline: none;
@@ -164,6 +164,7 @@ h6,
         overflow: auto;
         
     }
+
 }
 
 @media(max-width: 600px){
@@ -172,7 +173,7 @@ h6,
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 991px) {
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
@@ -196,8 +197,12 @@ h6,
     }
 
     .navbar-light .navbar-brand img {
-        max-height: 70px;
+        max-height: 60px;
     }
+
+    .navbar {
+        overflow-x: hidden;
+      }
 }
 
 @media (max-width: 800px){
@@ -206,7 +211,7 @@ h6,
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 991px) {
     .navbar-light {
         position: absolute;
         width: 100%;
@@ -215,16 +220,13 @@ h6,
         border-bottom: 1px solid rgba(256, 256, 256, .1); 
         z-index: 999;
     }
-    
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
     }
-
     .sticky-top.navbar-light .navbar-brand h1 {
         color: var(--primary);
     }
-
     .navbar-light .navbar-nav .nav-item .dropdown-menu {
         display: block;
         border: none;
@@ -235,30 +237,32 @@ h6,
         visibility: hidden;
         transition: .5s;
     }
-
     .navbar-light .navbar-nav .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
         transition: .5s;
         opacity: 1;
     }
-
     .navbar-light .btn {
         color: var(--dark);
         background: #FFFFFF;
     }
-
     .sticky-top.navbar-light .btn {
         color: var(--dark);
         background: var(--secondary);
     }
-}
-
-@media (max-width: 991.98px) {
-    .navbar {
-      overflow-x: hidden;
+    .hero-header {
+        padding: 6rem 0 9rem 0;
     }
-  }
+
+    #hiro{
+        padding-top: 0px !important;
+    }
+    .otdalechi{
+        padding-top: 60px;
+    }
+
+}
 
 
 /*** Hero Header ***/
@@ -284,21 +288,7 @@ h6,
     background-size:contain;
 }
 
-@media (max-width: 991.98px) {
-    .hero-header {
-        padding: 6rem 0 9rem 0;
-    }
 
-    #hiro{
-        padding-top: 0px !important;
-    }
-
-    .otdalechi{
-        padding-top: 60px;
-    }
-
-
-}
 
 @media (max-width: 1205px) {
     .hero-header{
