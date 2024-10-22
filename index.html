@@ -780,30 +780,31 @@
       <div class="row justify-content-center">
         <div class="col-lg-7">
           <div class="wow fadeIn">
-            <form action="https://formsubmit.co/kompot.ood@gmail.com" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="e0be5cf9-a84f-45e5-b56d-d8fa4bd8f335">
               <div class="row g-3">
                 <div class="col-md-6">
                   <div class="form-floating">
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Твоето Име">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Твоето Име" required>
                     <label for="name">Твоето Име</label>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-floating">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Твоят Email">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Твоят Email" required>
                     <label for="email">Твоят Email</label>
                   </div>
                 </div>
                 <div class="col-12">
                   <div class="form-floating">
-                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Тема">
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Тема" required>
                     <label for="subject">Тема</label>
                   </div>
                 </div>
                 <div class="col-12">
                   <div class="form-floating">
                     <textarea class="form-control" placeholder="Остави съобщеннието тук" id="message" name="message"
-                      style="height: 150px"></textarea>
+                      required style="height: 150px"></textarea>
                     <label for="message">Остави съобщеннието тук</label>
                   </div>
                 </div>
