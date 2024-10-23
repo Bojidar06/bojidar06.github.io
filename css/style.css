@@ -363,16 +363,6 @@ h6,
 }
 
 
-/*** Feature ***/
-.feature-item {
-    transition: .5s;
-}
-
-.feature-item:hover {
-    margin-top: -15px;
-}
-
-
 /*** About ***/
 .progress {
     height: 5px;
