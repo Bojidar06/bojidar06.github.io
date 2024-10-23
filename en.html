@@ -776,7 +776,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-7">
           <div class="wow fadeIn">
-            <form action="https://api.web3forms.com/submit" method="POST">
+            <form id="contactFormEn" action="https://api.web3forms.com/submit" method="POST">
               <input type="hidden" name="access_key" value="e0be5cf9-a84f-45e5-b56d-d8fa4bd8f335">
               <div class="row g-3">
                 <div class="col-md-6">
@@ -817,6 +817,34 @@
   <!-- Contact End -->
 
 
+
+  <script>
+    const FormEn = document.getElementById("contactFormEn");
+
+    FormEn.addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent default form submission
+
+      // Submit form using fetch API
+      fetch(FormEn.action, {
+        method: FormEn.method,
+        body: new FormData(FormEn),
+      })
+        .then(response => response.json())
+        .then(result => {
+          if (result.success) {
+
+            // Clear the form after successful submission
+            FormEn.reset();
+          } else {
+            alert("There was an error submitting the form.");
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert("Submission failed.");
+        });
+    });
+  </script>
 
 
 
