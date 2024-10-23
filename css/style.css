@@ -257,9 +257,6 @@ h6,
         color: var(--dark);
         background: var(--secondary);
     }
-    .hero-header {
-        padding: 6rem 0 9rem 0;
-    }
 
     #hiro{
         padding-top: 0px !important;
@@ -271,36 +268,7 @@ h6,
 }
 
 
-/*** Hero Header ***/
-.hero-header {
-    margin-bottom: 4rem;
-    padding-bottom: 17rem;
-    padding-top: 7rem;
-    background:
-        url(../img/blob-top-left.png),
-        url(../img/blob-top-right.png),
-        url(../img/blob-bottom-left.png),
-        url(../img/blob-bottom-right.png),
-        url(../img/blob-center.png),
-        url(../img/bg-bottom.png);
-    background-position:
-        left 0px top 0px,
-        right 0px top 0px,
-        left 0px bottom 0px,
-        right 0px bottom 0px,
-        center center,
-        center bottom;
-    background-repeat: no-repeat;
-    background-size:contain;
-}
 
-
-
-@media (max-width: 1205px) {
-    .hero-header{
-        padding-top: 11rem !important;
-    }
-}
 
 
 /*** Section Title ***/
@@ -502,25 +470,6 @@ h6,
     opacity: 1;
 }
 
-
-/*** Newsletter ***/
-.newsletter {
-    margin: 6rem 0;
-    background:
-        url(../img/blob-top-left.png),
-        url(../img/blob-top-right.png),
-        url(../img/blob-bottom-left.png),
-        url(../img/blob-bottom-right.png),
-        url(../img/blob-center.png);
-    background-position:
-        left 0px top 0px,
-        right 0px top 0px,
-        left 0px bottom 0px,
-        right 0px bottom 0px,
-        center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 
 /*** Testimonial ***/
