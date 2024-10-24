@@ -213,6 +213,10 @@ h6,
     .navbar {
         overflow-x: hidden;
       }
+
+    .navbar-nav{
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 800px){
