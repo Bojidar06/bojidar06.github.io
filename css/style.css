@@ -191,6 +191,10 @@ h6,
         border-top: 1px solid #DDDDDD;
     }
 
+    .nav-link{
+        margin-right: 0px !important;
+    }
+
     .navbar-light .navbar-nav .nav-link,
     .sticky-top.navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
