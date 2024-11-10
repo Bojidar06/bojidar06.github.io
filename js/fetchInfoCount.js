@@ -1,4 +1,4 @@
-const apiUrl = 'https://kompotserver.net/'
+const apiUrl = 'https://kompotserver.net'
 
 async function fetchData(endpoint) {
     try {
