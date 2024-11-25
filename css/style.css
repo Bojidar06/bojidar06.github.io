@@ -5,6 +5,29 @@
     --dark: #04000B;
 }
 
+
+
+body {
+    width: 100% !important;
+    min-height: 0px !important;
+    overflow-x: hidden !important;
+  }
+
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a {
+    padding: 3px 0;
+    text-decoration: none !important;
+  }
+
+
+
 /* Scrollbar  */
 ::-webkit-scrollbar{
     width: 8px;
